@@ -18,6 +18,7 @@ public class ClientReader extends Thread
     private final InputStream in;
     private final GUI gui;
     
+    // sprawdzam
     public ClientReader(GUI gui, InputStream in) 
     {
         this.gui=gui;
