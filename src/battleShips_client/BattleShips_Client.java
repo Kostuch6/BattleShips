@@ -24,6 +24,7 @@ public class BattleShips_Client
         {
             // test gita
             // oszukujo
+            // nowa wersja bo komentarz!
             Socket socket = new Socket("localhost", 2000);
             System.out.println("Podlaczono pod serwer ...");
             // sobie sam to zmienil
