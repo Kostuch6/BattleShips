@@ -22,8 +22,11 @@ public class BattleShips_Client
     {
         try
         {
+            // test gita
+            // oszukujo
             Socket socket = new Socket("localhost", 2000);
-            System.out.println("Connected To Server ...");
+            System.out.println("Podlaczono pod serwer ...");
+            // sobie sam to zmienil
             //Pobieranie strumieni do gniazda
             InputStream in = socket.getInputStream();
             OutputStream out = socket.getOutputStream();
