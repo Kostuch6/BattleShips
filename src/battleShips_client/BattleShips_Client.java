@@ -23,14 +23,9 @@ public class BattleShips_Client
         try
         {
             // test gita
-            // oszukujo
             // nowa wersja bo komentarz!
-            // test gita 2
-            // wcale nie oszukujo
-            // zobaczmy czy bedzie apdejt
             Socket socket = new Socket("localhost", 2000);
             System.out.println("Connected ...");
-            // won mnie z tym
             //Pobieranie strumieni do gniazda
             InputStream in = socket.getInputStream();
             OutputStream out = socket.getOutputStream();
